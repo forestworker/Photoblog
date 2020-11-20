@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+
+h2 {
+    font-family: Goldman;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+h2:hover {
+    color: red ;
+    text-transform: uppercase;
+    text-shadow: 4px 4px black;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+hr {
+    width:50%;
+}
+
+img {
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+p {
+    font-family: Goldman;
+    text-align: center;
+    font-size: 15;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #dae2f0;
+    width: 100%;
+    height: 130px;
+    
+}
+
+.email {
+    border: none;
+    background-color: red;
+    color: white;
+    margin: 0px auto;
+    display: block;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-family: Goldman;
+}
+
+button {
+    margin: 0px auto;
+    margin-top: 5px;
+    display: block;
+    font-family: Goldman;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+button:hover {
+    margin: 0px auto;
+    margin-top: 5px;
+    display: block;
+    font-family: Goldman;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    transform: scale(1.1);
+    transition: 1s;
+}
